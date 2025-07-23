@@ -4,10 +4,10 @@ from tensorflow.keras.preprocessing import image
 img_height = 150
 img_width = 150
 
-loaded_model = tf.keras.models.load_model('model_P3.h5')
+loaded_model = tf.keras.models.load_model('/workspaces/ImageClassifier/model_P3.h5')
 
 # Define the path to your single image file
-img_path = '/content/Web_Photo_Editor.jpg' # Replace with the actual path to your image
+img_path = '/workspaces/ImageClassifier/Web_Photo_Editor.jpg' # Replace with the actual path to your image
 
 # Load the image and resize it
 img = image.load_img(img_path, target_size=(img_height, img_width))
