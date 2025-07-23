@@ -1,0 +1,4 @@
+tensorflow
+redis
+psycopg2-binary
+Pillow
